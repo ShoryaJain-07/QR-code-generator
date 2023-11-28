@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>QR code generator</h1>
+        <div class="input">
+                <label for="input_text">Enter the text</label><br>
+                <input class="input_text" type="text" required><br>
+                <span class="error"></span><br>
+                <button onclick="generate()">Generate QR</button>
+           
+        </div>
+        <div class="output">
+            <img class="qr" src="" />
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
